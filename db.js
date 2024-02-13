@@ -1,7 +1,4 @@
-const dotenv = require("dotenv");
-dotenv.config({ path: "./config.env" });
-
-const { Sequelize, Model, DataTypes } = require("sequelize");
+const { Sequelize } = require("sequelize");
 
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
 
